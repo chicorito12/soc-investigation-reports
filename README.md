@@ -1,107 +1,70 @@
--🛡️ SOC Investigation Reports — Blue Team Portfolio
--📌 Overview
+# 🛡️ SOC Investigation Reports — Blue Team Portfolio
 
-This repository contains a growing collection of hands-on SOC Level 1 investigation reports based on simulated enterprise attack scenarios.
+> Hands-on SOC Level 1 investigations demonstrating real-world detection, analysis, and response skills.
 
-Each case demonstrates my ability to:
+---
 
-Triage and validate security alerts
+## 📌 Overview
 
-Correlate multi-source telemetry (SIEM, endpoint, network)
+This repository contains a growing collection of practical SOC investigation reports based on simulated enterprise attack scenarios (TryHackMe, LetsDefend, and similar platforms).
 
-Identify attacker behavior patterns
+Each case reflects a complete investigation lifecycle — from alert validation to containment and final reporting.
 
-Map activity to MITRE ATT&CK techniques
+---
 
-Assess impact and determine escalation level
+## 🔍 Core Capabilities Demonstrated
 
-Execute containment actions
+- Security alert triage and validation  
+- Multi-source log correlation (SIEM, endpoint, network)  
+- Windows Event Log analysis (4624, 4625, etc.)  
+- Credential abuse & brute force detection  
+- Threat intelligence enrichment (WHOIS, VirusTotal, AbuseIPDB)  
+- MITRE ATT&CK technique mapping  
+- Incident severity classification & escalation  
+- EDR-based containment actions  
+- Professional incident documentation  
 
-Produce professional-grade incident documentation
+---
 
-This portfolio reflects practical blue team skills aligned with real-world SOC operations.
+## 📂 Case Studies Included
 
-🎯 What This Demonstrates
+- **Phishing → PowerShell Recon → DNS Exfiltration**
+- **RDP Brute Force → Unauthorized Remote Access**
+- Additional cases continuously added
 
-Through these investigations, I showcase the ability to:
+Each investigation folder contains:
 
-Distinguish false positives from true compromises
+- 📄 Full SOC Incident Report (PDF)
+- 📝 Structured Markdown summary
+- 📸 Supporting screenshots & evidence
+- 🗺️ MITRE ATT&CK mapping
 
-Detect credential abuse and brute force attacks
+---
 
-Analyze Windows Security Events (4624, 4625, etc.)
+## 🧠 What This Portfolio Shows
 
-Investigate phishing-driven intrusions
+These investigations demonstrate my ability to:
 
-Identify living-off-the-land techniques
+- Differentiate false positives from confirmed compromises  
+- Reconstruct attack timelines from fragmented telemetry  
+- Identify attacker techniques using behavioral indicators  
+- Assess business impact and determine escalation level  
+- Execute rapid containment to reduce blast radius  
+- Communicate findings clearly and professionally  
 
-Reconstruct attack timelines from multi-source telemetry
+This is not theoretical knowledge — it reflects applied blue team analysis.
 
-Make risk-based escalation decisions
+---
 
-These are complete, end-to-end investigations — from alert to containment.
+## ⚠️ Disclaimer
 
-📂 Case Studies Included
+All investigations are conducted within controlled lab environments and are intended strictly for educational and professional portfolio purposes.
 
-Phishing → PowerShell Recon → DNS Exfiltration
+---
 
-RDP Brute Force → Unauthorized Remote Access
+## 👤 Author
 
-Additional cases continuously added
-
-Each case folder includes:
-
-📄 Full Incident Report (PDF)
-
-📝 Structured investigation summary (Markdown)
-
-📸 Supporting evidence and screenshots
-
-🗺️ MITRE ATT&CK technique mapping
-
-🧰 Technical Skills Demonstrated
-
-SIEM monitoring & alert triage
-
-Windows Event Log analysis
-
-Endpoint telemetry investigation
-
-Network traffic analysis
-
-Threat intelligence enrichment (WHOIS, VirusTotal, AbuseIPDB)
-
-Credential attack detection
-
-EDR containment procedures
-
-Incident severity classification
-
-Clear and structured security reporting
-
-📊 Why This Matters
-
-Effective SOC analysts must be able to:
-
-Validate alerts quickly
-
-Reduce false positives
-
-Detect credential abuse and lateral movement risks
-
-Contain threats before escalation
-
-Communicate findings clearly and professionally
-
-This repository showcases those capabilities in action.
-
-⚠️ Disclaimer
-
-All investigations are based on controlled lab environments (TryHackMe, LetsDefend, and similar platforms) and are intended for educational and professional portfolio purposes only.
-
-👤 Author
-
-Justin Benedict P. Mendoza
-Aspiring SOC Analyst | Blue Team Focused
+**Justin Benedict P. Mendoza**  
+Aspiring SOC Analyst | Blue Team Focused  
 
 Actively developing hands-on incident detection and response skills aligned with real-world SOC environments.
