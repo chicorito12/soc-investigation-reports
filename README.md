@@ -1,5 +1,5 @@
-🛡️ SOC Investigation Reports — Blue Team Portfolio
-📌 Overview
+-🛡️ SOC Investigation Reports — Blue Team Portfolio
+-📌 Overview
 
 This repository contains a growing collection of hands-on SOC Level 1 investigation reports based on simulated enterprise attack scenarios.
 
