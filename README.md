@@ -1,93 +1,107 @@
-# 🛡️ SOC Investigation Report — Phishing Attack Leading to PowerShell Recon & DNS Exfiltration
+🛡️ SOC Investigation Reports — Blue Team Portfolio
+📌 Overview
 
-## 📌 Overview
+This repository contains a growing collection of hands-on SOC Level 1 investigation reports based on simulated enterprise attack scenarios.
 
-This repository contains a detailed **SOC Level 1 incident investigation report** based on a simulated enterprise environment.
-The case demonstrates a full attack lifecycle — from **phishing initial access** to **post-compromise reconnaissance, data staging, and suspected DNS exfiltration**.
+Each case demonstrates my ability to:
 
-The report showcases practical SOC analyst skills including:
+Triage and validate security alerts
 
-* Log analysis and correlation
-* Alert triage and validation
-* Threat behavior mapping
-* Incident impact assessment
-* Documentation and escalation decisions
+Correlate multi-source telemetry (SIEM, endpoint, network)
 
----
+Identify attacker behavior patterns
 
-## 🎯 Objectives
+Map activity to MITRE ATT&CK techniques
 
-* Demonstrate real-world SOC investigation workflow
-* Practice evidence-based incident analysis
-* Map observed activity to attacker tactics and techniques
-* Produce professional incident documentation
+Assess impact and determine escalation level
 
----
+Execute containment actions
 
-## 🧪 Scenario Summary
+Produce professional-grade incident documentation
 
-An executive workstation was compromised after receiving a phishing email containing a malicious ZIP attachment.
-Subsequent activity revealed:
+This portfolio reflects practical blue team skills aligned with real-world SOC operations.
 
-* PowerShell-based reconnaissance (PowerView)
-* Unauthorized network share access
-* Data staging using native tools (Robocopy)
-* Encoded DNS queries consistent with tunneling
+🎯 What This Demonstrates
 
-The investigation follows the attack progression from **initial access → discovery → collection → exfiltration**.
+Through these investigations, I showcase the ability to:
 
----
+Distinguish false positives from true compromises
 
-## 🧰 Skills Demonstrated
+Detect credential abuse and brute force attacks
 
-* SIEM & log analysis
-* Endpoint telemetry investigation
-* Windows forensic artifacts interpretation
-* Living-off-the-land technique identification
-* Incident severity classification
-* Security reporting & communication
+Analyze Windows Security Events (4624, 4625, etc.)
 
----
+Investigate phishing-driven intrusions
 
-## 📂 Contents
+Identify living-off-the-land techniques
 
-* 📄 **SOC L1 Incident Report (PDF)** — Full investigation document
-* 📝 Supporting screenshots and evidence
+Reconstruct attack timelines from multi-source telemetry
 
----
+Make risk-based escalation decisions
 
-## 🗺️ Attack Techniques Observed
+These are complete, end-to-end investigations — from alert to containment.
 
-* Phishing (Initial Access)
-* PowerShell Execution
-* Account & Network Discovery
-* Network Share Access
-* Data Staging
-* DNS Tunneling / Exfiltration
+📂 Case Studies Included
 
----
+Phishing → PowerShell Recon → DNS Exfiltration
 
-## 📊 Key Takeaways
+RDP Brute Force → Unauthorized Remote Access
 
-* Phishing remains a high-success initial access vector
-* Native Windows tools can be abused to evade detection
-* Correlating multi-source telemetry is critical for timeline reconstruction
-* Behavioral indicators are essential when reputation data is limited
+Additional cases continuously added
 
----
+Each case folder includes:
 
-## ⚠️ Disclaimer
+📄 Full Incident Report (PDF)
 
-This project is based on a **TryHackMe training lab** and is intended for **educational and portfolio purposes only**.
-All indicators and artifacts exist in a controlled environment.
+📝 Structured investigation summary (Markdown)
 
----
+📸 Supporting evidence and screenshots
 
-## 👤 Author
+🗺️ MITRE ATT&CK technique mapping
 
-**Justin Benedict P. Mendoza**
-Aspiring SOC Analyst | Cybersecurity Enthusiast
+🧰 Technical Skills Demonstrated
 
----
+SIEM monitoring & alert triage
 
-⭐ If you found this useful or interesting, feel free to star the repo!
+Windows Event Log analysis
+
+Endpoint telemetry investigation
+
+Network traffic analysis
+
+Threat intelligence enrichment (WHOIS, VirusTotal, AbuseIPDB)
+
+Credential attack detection
+
+EDR containment procedures
+
+Incident severity classification
+
+Clear and structured security reporting
+
+📊 Why This Matters
+
+Effective SOC analysts must be able to:
+
+Validate alerts quickly
+
+Reduce false positives
+
+Detect credential abuse and lateral movement risks
+
+Contain threats before escalation
+
+Communicate findings clearly and professionally
+
+This repository showcases those capabilities in action.
+
+⚠️ Disclaimer
+
+All investigations are based on controlled lab environments (TryHackMe, LetsDefend, and similar platforms) and are intended for educational and professional portfolio purposes only.
+
+👤 Author
+
+Justin Benedict P. Mendoza
+Aspiring SOC Analyst | Blue Team Focused
+
+Actively developing hands-on incident detection and response skills aligned with real-world SOC environments.
