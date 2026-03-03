@@ -1,64 +1,88 @@
 # 🛡️ SOC Investigation Reports — Blue Team Portfolio
 
-> Hands-on SOC Level 1 investigations demonstrating real-world detection, analysis, and response skills.
+> Hands-on SOC Level 1 investigations demonstrating practical threat detection, incident response, and blue team analysis skills.
 
 ---
 
 ## 📌 Overview
 
-This repository contains a growing collection of practical SOC investigation reports based on simulated enterprise attack scenarios (TryHackMe, LetsDefend, and similar platforms).
+This repository contains a collection of structured SOC incident investigation reports based on simulated enterprise attack scenarios (TryHackMe, LetsDefend, and similar platforms).
 
-Each case reflects a complete investigation lifecycle — from alert validation to containment and final reporting.
+Each report demonstrates end-to-end Security Operations Center (SOC) workflow, including:
 
----
+- Alert triage and validation  
+- SIEM log analysis and correlation  
+- Windows Security Event analysis (Event ID 4624, 4625, etc.)  
+- Threat detection and behavior analysis  
+- MITRE ATT&CK mapping  
+- Incident impact assessment  
+- Escalation classification  
+- Containment and remediation decisions  
+- Professional incident reporting  
 
-## 🔍 Core Capabilities Demonstrated
-
-- Security alert triage and validation  
-- Multi-source log correlation (SIEM, endpoint, network)  
-- Windows Event Log analysis (4624, 4625, etc.)  
-- Credential abuse & brute force detection  
-- Threat intelligence enrichment (WHOIS, VirusTotal, AbuseIPDB)  
-- MITRE ATT&CK technique mapping  
-- Incident severity classification & escalation  
-- EDR-based containment actions  
-- Professional incident documentation  
+These reports reflect applied incident response methodology aligned with real-world SOC environments.
 
 ---
 
-## 📂 Case Studies Included
+## 🔎 Technical Skills Demonstrated
 
-- **Phishing → PowerShell Recon → DNS Exfiltration**
-- **RDP Brute Force → Unauthorized Remote Access**
-- Additional cases continuously added
-
-Each investigation folder contains:
-
-- 📄 Full SOC Incident Report (PDF)
-- 📝 Structured Markdown summary
-- 📸 Supporting screenshots & evidence
-- 🗺️ MITRE ATT&CK mapping
-
----
-
-## 🧠 What This Portfolio Shows
-
-These investigations demonstrate my ability to:
-
-- Differentiate false positives from confirmed compromises  
-- Reconstruct attack timelines from fragmented telemetry  
-- Identify attacker techniques using behavioral indicators  
-- Assess business impact and determine escalation level  
-- Execute rapid containment to reduce blast radius  
-- Communicate findings clearly and professionally  
-
-This is not theoretical knowledge — it reflects applied blue team analysis.
+- Security Information and Event Management (SIEM)
+- Incident Response (IR)
+- Threat Detection & Analysis
+- Windows Event Log Investigation
+- RDP Brute Force Detection
+- Phishing Attack Investigation
+- Credential Abuse Analysis
+- Threat Intelligence Enrichment (WHOIS, VirusTotal, AbuseIPDB)
+- Log Correlation Across Endpoint & Network Telemetry
+- MITRE ATT&CK Framework Mapping
+- Security Documentation & Reporting
 
 ---
 
-## ⚠️ Disclaimer
+## 📂 Reports Included
 
-All investigations are conducted within controlled lab environments and are intended strictly for educational and professional portfolio purposes.
+- **SOC-01 — Phishing → PowerShell Recon → DNS Exfiltration**
+- **SOC-02 — RDP Brute Force → Unauthorized Remote Access**
+
+Additional investigations will be continuously added to expand coverage of real-world attack techniques.
+
+---
+
+## 🧠 Investigation Methodology
+
+Each case follows a structured SOC incident response process:
+
+1. Alert validation  
+2. Log analysis and event correlation  
+3. Threat behavior identification  
+4. Timeline reconstruction  
+5. Impact and risk assessment  
+6. Escalation decision-making  
+7. Containment recommendation  
+8. Final incident documentation  
+
+This demonstrates the ability to move from detection to resolution in a structured, evidence-based manner.
+
+---
+
+## 📈 Currently Seeking SOC Analyst Role
+
+I am actively seeking entry-level or junior SOC Analyst opportunities where I can contribute to:
+
+- 24/7 SOC monitoring environments  
+- Alert triage and incident investigation  
+- Threat detection and response operations  
+- SIEM monitoring and log analysis  
+- Blue team defensive security initiatives  
+
+I am committed to continuous learning, disciplined investigation methodology, and delivering clear, actionable security reporting.
+
+---
+
+## ⚠️ Simulation Notice
+
+All investigations are conducted in controlled lab environments for professional development and portfolio demonstration purposes. No live organizational infrastructure or sensitive data is involved.
 
 ---
 
@@ -67,4 +91,4 @@ All investigations are conducted within controlled lab environments and are inte
 **Justin Benedict P. Mendoza**  
 Aspiring SOC Analyst | Blue Team Focused  
 
-Actively developing hands-on incident detection and response skills aligned with real-world SOC environments.
+Dedicated to building practical expertise in threat detection, incident response, and security operations.
