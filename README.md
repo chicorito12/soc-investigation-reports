@@ -47,11 +47,11 @@ These investigations reflect applied incident response methodologies aligned wit
 
 ## 📂 Reports Included
 
-### SOC-01 — Phishing → PowerShell Recon → DNS Exfiltration  
-📄 [View Report](./SOC_Investigation_Phishing_DNS_Exfiltration_Justin_Mendoza.pdf)
+📄 Phishing Report:
+https://raw.githubusercontent.com/chicorito12/soc-investigation-reports/main/SOC_Investigation_Phishing_DNS_Exfiltration_Justin_Mendoza.pdf
 
-### SOC-02 — RDP Brute Force → Unauthorized Remote Access  
-📄 [View Report](./SOC_Investigation_RDP_Brute_Force_Justin_Mendoza.pdf)
+📄 RDP Brute Force Report:
+https://raw.githubusercontent.com/chicorito12/soc-investigation-reports/main/SOC_Investigation_RDP_Brute_Force_Justin_Mendoza.pdf
 
 ---
 
