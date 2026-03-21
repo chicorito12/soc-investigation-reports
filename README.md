@@ -47,11 +47,11 @@ These investigations reflect applied incident response methodologies aligned wit
 
 ## 📂 Reports Included
 
-📄 Phishing Report:
-https://raw.githubusercontent.com/chicorito12/soc-investigation-reports/main/SOC_Investigation_Phishing_DNS_Exfiltration_Justin_Mendoza.pdf
+📄 Phishing Report  
+[View Report](https://raw.githubusercontent.com/chicorito12/soc-investigation-reports/main/SOC_Investigation_Phishing_DNS_Exfiltration_Justin_Mendoza.pdf)
 
-📄 RDP Brute Force Report:
-https://raw.githubusercontent.com/chicorito12/soc-investigation-reports/main/SOC_Investigation_RDP_Brute_Force_Justin_Mendoza.pdf
+📄 RDP Brute Force Report  
+[View Report](https://raw.githubusercontent.com/chicorito12/soc-investigation-reports/main/SOC_Investigation_RDP_Brute_Force_Justin_Mendoza.pdf)
 
 ---
 
