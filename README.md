@@ -1,7 +1,7 @@
 # 🛡️ SOC Investigation Reports — Blue Team Portfolio
 
 👤 **Author:** Justin Benedict P. Mendoza  
-🎯 **SOC Analyst | Blue Team | Incident Investigation & DFIR**
+🎯 **Entry-Level SOC Analyst | Blue Team | Incident Investigation & DFIR**
 
 ---
 
